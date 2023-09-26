@@ -1,0 +1,31 @@
+------------------
+1) what is gulp ? 
+------------------
+   
+   Gulp is a task runner that uses Node.js as a platform. Gulp purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications.
+   It builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files.
+
+--------------------------------------------
+2) How to use project without Scss & Gulp ?
+--------------------------------------------
+
+    If you don't want to use scss files, if you want to use only css files please follow below steps.
+
+    Step 1 :
+        If you don't want to use scss files,you are in no need of gulp and other related files & folders so please remove below shown files
+
+            Html/src folder
+            Html/dist/assets/css/icons.min.css.map file
+            Html/dist/assets/css/styles.min.css.map file
+            Html/gulpfile.js file
+            Html/package-lock.json file
+            Html/package.json file
+            Html/node_modules folder
+
+    Step 2 :
+        Remove scss folder in dist folder Path:Html/dist/assets/scss
+
+            You can simply use dist folder with only css, or can use by renaming it😊.
+
+	
+	
